@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+html {
+    font-size: 12px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(41, 191, 0);
+}
+
+.titulo {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+/* 
+.subtitulo {
+    
+}
+ */    
+
+.center-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-login {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0px 0px 30px 2px;
+    backdrop-filter: blur(30px);
+    background-color: white;
+    color: black;
+}
+
+.container-registro {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0px 0px 30px 2px;
+    backdrop-filter: blur(30px);
+    background-color: white;
+    color: black;
+}
+
+.input-isfd {
+    border: #9e9e9e 1px solid;
+}
+
+.table-isfd {
+    box-shadow: 0px 0px 30px 2px;
+}
+
+.bg-link-isfd {
+    text-decoration: none;
+}
+
+.bg-isfd {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0px 0px 30px 2px;
+    backdrop-filter: blur(30px);
+    background-color: white;
+    color: black;
+}
+
+.bg-person {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 191, 0);
+    box-shadow: 0px 0px 5px 2px;
+    border-radius: 50px;
+    border: black 1px solid;
+    text-align: center;
+}
+
+
+.bi-person {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}.bi-person-add {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
